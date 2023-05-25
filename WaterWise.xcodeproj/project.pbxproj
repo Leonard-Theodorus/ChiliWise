@@ -14,6 +14,15 @@
 		D72C35F62A1716A60037D0D2 /* WaterWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C35F52A1716A60037D0D2 /* WaterWiseTests.swift */; };
 		D72C36002A1716A60037D0D2 /* WaterWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C35FF2A1716A60037D0D2 /* WaterWiseUITests.swift */; };
 		D72C36022A1716A60037D0D2 /* WaterWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C36012A1716A60037D0D2 /* WaterWiseUITestsLaunchTests.swift */; };
+		D72C36112A17272B0037D0D2 /* LeoChiliV4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D72C36102A17272B0037D0D2 /* LeoChiliV4.mlmodel */; };
+		D77DB6392A1778640092585A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DB6382A1778630092585A /* ImagePicker.swift */; };
+		D77DB63B2A17BFBB0092585A /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DB63A2A17BFBB0092585A /* CameraPreview.swift */; };
+		D77DB6412A17D0920092585A /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DB6402A17D0920092585A /* CameraModel.swift */; };
+		D77DB6452A1B055C0092585A /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DB6442A1B055C0092585A /* ImageClassifier.swift */; };
+		D77DB6492A1B18540092585A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DB6482A1B18540092585A /* ResultView.swift */; };
+		D77DB64B2A1B324C0092585A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DB64A2A1B324C0092585A /* HomeView.swift */; };
+		D77DB64E2A1B32BC0092585A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DB64D2A1B32BC0092585A /* ColorExtension.swift */; };
+		D7B767942A1B848100D5DED7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B767932A1B848100D5DED7 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D72C35E12A1716A30037D0D2 /* WaterWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72C35E12A1716A30037D0D2 /* ChiliWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiliWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72C35E42A1716A30037D0D2 /* WaterWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWiseApp.swift; sourceTree = "<group>"; };
 		D72C35E62A1716A30037D0D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D72C35E82A1716A60037D0D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +53,16 @@
 		D72C35FB2A1716A60037D0D2 /* WaterWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72C35FF2A1716A60037D0D2 /* WaterWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWiseUITests.swift; sourceTree = "<group>"; };
 		D72C36012A1716A60037D0D2 /* WaterWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D72C36102A17272B0037D0D2 /* LeoChiliV4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LeoChiliV4.mlmodel; sourceTree = "<group>"; };
+		D77DB6382A1778630092585A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D77DB63A2A17BFBB0092585A /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		D77DB63C2A17CAA00092585A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D77DB6402A17D0920092585A /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		D77DB6442A1B055C0092585A /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		D77DB6482A1B18540092585A /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		D77DB64A2A1B324C0092585A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D77DB64D2A1B32BC0092585A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		D7B767932A1B848100D5DED7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +103,7 @@
 		D72C35E22A1716A30037D0D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D72C35E12A1716A30037D0D2 /* WaterWise.app */,
+				D72C35E12A1716A30037D0D2 /* ChiliWise.app */,
 				D72C35F12A1716A60037D0D2 /* WaterWiseTests.xctest */,
 				D72C35FB2A1716A60037D0D2 /* WaterWiseUITests.xctest */,
 			);
@@ -94,8 +113,11 @@
 		D72C35E32A1716A30037D0D2 /* WaterWise */ = {
 			isa = PBXGroup;
 			children = (
+				D77DB63C2A17CAA00092585A /* Info.plist */,
+				D77DB6372A1777E70092585A /* Utilities */,
+				D72C360F2A1716CE0037D0D2 /* Model */,
+				D72C360E2A1716B90037D0D2 /* View */,
 				D72C35E42A1716A30037D0D2 /* WaterWiseApp.swift */,
-				D72C35E62A1716A30037D0D2 /* ContentView.swift */,
 				D72C35E82A1716A60037D0D2 /* Assets.xcassets */,
 				D72C35EA2A1716A60037D0D2 /* Preview Content */,
 			);
@@ -127,6 +149,53 @@
 			path = WaterWiseUITests;
 			sourceTree = "<group>";
 		};
+		D72C360E2A1716B90037D0D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D72C35E62A1716A30037D0D2 /* ContentView.swift */,
+				D77DB6482A1B18540092585A /* ResultView.swift */,
+				D77DB64A2A1B324C0092585A /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D72C360F2A1716CE0037D0D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D72C36102A17272B0037D0D2 /* LeoChiliV4.mlmodel */,
+				D77DB6402A17D0920092585A /* CameraModel.swift */,
+				D77DB6442A1B055C0092585A /* ImageClassifier.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D77DB6372A1777E70092585A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D7B767922A1B847600D5DED7 /* Constants */,
+				D77DB64C2A1B32B20092585A /* Extension */,
+				D77DB6382A1778630092585A /* ImagePicker.swift */,
+				D77DB63A2A17BFBB0092585A /* CameraPreview.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D77DB64C2A1B32B20092585A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D77DB64D2A1B32BC0092585A /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D7B767922A1B847600D5DED7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D7B767932A1B848100D5DED7 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,7 +213,7 @@
 			);
 			name = WaterWise;
 			productName = WaterWise;
-			productReference = D72C35E12A1716A30037D0D2 /* WaterWise.app */;
+			productReference = D72C35E12A1716A30037D0D2 /* ChiliWise.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D72C35F02A1716A60037D0D2 /* WaterWiseTests */ = {
@@ -257,8 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77DB6452A1B055C0092585A /* ImageClassifier.swift in Sources */,
+				D77DB63B2A17BFBB0092585A /* CameraPreview.swift in Sources */,
+				D77DB64E2A1B32BC0092585A /* ColorExtension.swift in Sources */,
 				D72C35E72A1716A30037D0D2 /* ContentView.swift in Sources */,
+				D77DB64B2A1B324C0092585A /* HomeView.swift in Sources */,
+				D7B767942A1B848100D5DED7 /* Constants.swift in Sources */,
+				D77DB6392A1778640092585A /* ImagePicker.swift in Sources */,
+				D72C36112A17272B0037D0D2 /* LeoChiliV4.mlmodel in Sources */,
+				D77DB6492A1B18540092585A /* ResultView.swift in Sources */,
 				D72C35E52A1716A30037D0D2 /* WaterWiseApp.swift in Sources */,
+				D77DB6412A17D0920092585A /* CameraModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +498,8 @@
 				DEVELOPMENT_TEAM = 6H4427J3SZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterWise/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Would like to access your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,7 +511,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.test1.WaterWise;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ChiliWise;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +529,8 @@
 				DEVELOPMENT_TEAM = 6H4427J3SZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterWise/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Would like to access your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,7 +542,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.test1.WaterWise;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ChiliWise;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
